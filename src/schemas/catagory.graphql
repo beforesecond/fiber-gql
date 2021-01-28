@@ -1,0 +1,10 @@
+type Calendar {
+  id: ID!
+  requestIdRef: String!
+  calendarType: String!
+  dateTimeFrom: String!
+  dateTimeTo: String!
+  createdDate: String!
+  user_id: ID!
+  isActive: Boolean!
+}
